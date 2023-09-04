@@ -7,7 +7,7 @@ let headerMonth = document.querySelector('#header-month');
 let headerYear = document.querySelector('#header-year');
 // this code is use for get currnet date and set in calender
 let getDate = new Date();
-headerMonth.innerText = monthList[getDate.getMonth()];
+headerMonth.innerText = monthList[getDate.getMonth()]
 headerYear.innerText = getDate.getFullYear();
 
 // this will get total daysin currnet month and then rander them
