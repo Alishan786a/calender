@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(0, 132, 255);
+}
+.box{
+    min-height: 400px;
+    width: 450px;
+   
+    
+}
+#btn-header i{
+  background-color: rgb(230, 227, 224);
+  margin: 0 5px ;
+}
+#daysNumb{
+    font-weight: 600;
+}
+#daysNumb >ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    /* background-color: rgb(0, 255, 64); */
+    padding-left: 0;
+}
+#daysNumb >ul>li{
+    text-align: center;
+    list-style-type: none;
+    height: 50px;
+    width:  50px;
+    /* background-color: red; */
+    margin: 6px 3.2px;
+    line-height: 50px;
+    border-radius: 100%;
+}
+.active{
+    background-color: tan !important;
+}
+.disabled{
+    pointer-events: none;
+    opacity: 0.65;
+}
